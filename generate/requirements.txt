@@ -1,0 +1,6 @@
+# torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+diffusers
+transformers
+accelerate
+sentencepiece
+protobuf
