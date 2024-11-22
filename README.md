@@ -6,7 +6,7 @@
               <span class="author-block"> <a href="https://scholar.google.com/citations?user=X0o0Ib8AAAAJ" target="_blank">Hailang Huang</a><sup><text style="color:#ffac33">1</text>,<text style="color:#ed4b82">2</text>*</sup>,</span>&nbsp;
               <span class="author-block"> <a href="https://www.semanticscholar.org/author/Yong-Wang/1683878" target="_blank">Yong Wang</a><sup><text style="color:#ed4b82">2</text></text></sup>,</span>&nbsp;
               <span class="author-block"> <a href="https://scholar.google.com.hk/citations?user=OPxHcAoAAAAJ" target="_blank">Zixuan Huang</a><sup><text style="color:#ffac33">1</text>,<text style="color:#ed4b82">2</text>*</sup>, </span>&nbsp;
-              <span class="author-block"> <a href="https://github.com/huaqlili" target="_blank">Huaqiu Li</a><sup><text style="color:#ed4b82">2</text>,<text style="color:#6fbf73">3</text>*</sup>, </span>&nbsp;
+              <span class="author-block"> <a href="https://scholar.google.com/citations?user=zp8a-P8AAAAJ" target="_blank">Huaqiu Li</a><sup><text style="color:#ed4b82">2</text>,<text style="color:#6fbf73">3</text>*</sup>, </span>&nbsp;
               <span class="author-block"> <a href="https://scholar.google.com/citations?user=eaZBubIAAAAJ" target="_blank">Tongwen Huang</a><sup><text style="color:#ed4b82">2</text></sup>, </span>
               <br>
               <span class="author-block"> <a href="https://scholar.google.com/citations?user=jn21pUsAAAAJ" target="_blank">Xiangxiang Chu</a><sup><text style="color:#ed4b82">2</text>&dagger;</sup>, </span>&nbsp;
