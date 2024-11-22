@@ -127,8 +127,6 @@ We use the `InternVL2-2B` as an example. The structure of the code and data is a
 ### Stage 1
 Adapt your model in [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) and use MMGenBench for inference.
 
-*If VLMEvalKit has not yet merged our code, you can use: https://github.com/lerogo/VLMEvalKit/tree/mmgenbench*
-
 Run command: 
 ```bash
 torchrun --nproc-per-node=4 run.py --model <YOUR LMM> --data MMGenBench-Test MMGenBench-Domain --mode infer --verbose
