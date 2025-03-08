@@ -1,6 +1,6 @@
 <div align="center">
   <h1 align="center"><img src="docs/static/images/logo.svg" width="128"></h1>
-  <h1 align="center">MMGenBench: Evaluating the Limits of LMMs from the Text-to-Image Generation Perspective</h1>
+  <h1 align="center">MMGenBench: Fully Automatically Evaluating LMMs from the Text-to-Image Generation Perspective</h1>
   <div align="center">
         <div class="is-size-5 publication-authors">
               <span class="author-block"> <a href="https://scholar.google.com/citations?user=X0o0Ib8AAAAJ" target="_blank">Hailang Huang</a><sup><text style="color:#ffac33">1</text>,<text style="color:#ed4b82">2</text>*</sup>,</span>&nbsp;
@@ -26,24 +26,7 @@
   📖<a href="https://arxiv.org/abs/2411.14062">Paper</a> | 🏠<a href="https://mmgenbench.alsoai.com/">Homepage</a></h3> | 🤗<a href="https://huggingface.co/datasets/lerogo/MMGenBench">Huggingface</a></h3>
 </div>
 <div>
-Large Multimodal Models (LMMs) have demonstrated remarkable capabilities.
-                    While existing benchmarks for evaluating LMMs mainly focus on image comprehension, few works
-                    evaluate them from the image generation perspective. To address this issue, we propose a
-                    straightforward automated evaluation pipeline. Specifically, this pipeline requires LMMs to generate
-                    an image-prompt from a given input image. Subsequently, it employs text-to-image generative models
-                    to create a new image based on these generated prompts. Finally, we evaluate the performance of LMMs
-                    by comparing the original image with the generated one.
-                    Furthermore, we introduce <b>MMGenBench-Test</b>, a comprehensive
-                    benchmark developed to evaluate LMMs across 13 distinct image patterns, and <b>MMGenBench-Domain</b>, targeting the performance evaluation of LMMs within
-                    the generative image domain.
-                    A thorough evaluation involving over 50 popular LMMs demonstrates the effectiveness and reliability
-                    in both the pipeline and benchmark. Our observations indicate that numerous LMMs excelling in
-                    existing benchmarks fail to adequately complete the basic tasks, related to image understanding and
-                    description.
-                    This finding highlights the substantial potential for performance improvement in current LMMs and
-                    suggests avenues for future model optimization.
-                    Concurrently, our pipeline facilitates the efficient assessment of LMMs performance across diverse
-                    domains by using solely image inputs.
+Large Multimodal Models (LMMs) demonstrate impressive capabilities. However, current benchmarks predominantly focus on image comprehension in specific domains, and these benchmarks are labor-intensive to construct. Moreover, their answers tend to be brief, making it difficult to assess the ability of LMMs to generate detailed descriptions of images. To address these limitations, we propose the MMGenBench-Pipeline, a straightforward and fully automated evaluation pipeline. This involves generating textual descriptions from input images, using these descriptions to create auxiliary images via text-to-image generative models, and then comparing the original and generated images. Furthermore, to ensure the effectiveness of MMGenBench-Pipeline, we design MMGenBench-Test, evaluating LMMs across 13 distinct image patterns, and MMGenBench-Domain, focusing on generative image performance. A thorough evaluation involving over 50 popular LMMs demonstrates the effectiveness and reliability of both the pipeline and benchmark. Our observations indicate that numerous LMMs excelling in existing benchmarks fail to adequately complete the basic tasks related to image understanding and description. This finding highlights the substantial potential for performance improvement in current LMMs and suggests avenues for future model optimization. Concurrently, MMGenBench-Pipeline can efficiently assess the performance of LMMs across diverse domains using only image inputs. All code and data will be released.
     <img src="docs/static/images/pipeline.png" alt="MMGenBench" width="100%">
 </div>
 
@@ -179,7 +162,7 @@ If you find MMGenBench or code useful, please cite
 
 ```bibtex
 @misc{huang2024MMGenBench,
-      title={MMGenBench: Evaluating the Limits of LMMs from the Text-to-Image Generation Perspective},
+      title={MMGenBench: Fully Automatically Evaluating LMMs from the Text-to-Image Generation Perspective},
       author={Hailang Huang and Yong Wang and Zixuan Huang and Huaqiu Li and Tongwen Huang and Xiangxiang Chu and Richong Zhang},
       year={2024},
       eprint={2411.14062},
